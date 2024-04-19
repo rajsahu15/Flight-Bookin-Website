@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="content/mystyle.css">
+ 
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Admin Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Flight Manage
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="flightregister.html">New Flight Register</a></li>
+                  <li><a class="dropdown-item" href="flightview.html">Flight View</a></li>
+              </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="userview.html">Users</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="flightschedule.html">Flight Schedule</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <br>
+    <br>
+    <h1 align="center">Flight Register</h1>
+    <div class="container">
+    <form>
+     
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Flight Number</label>
+          <input type="text" class="form-control" name="flightnumber" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Flight Capacity</label>
+            <input type="number" name="flightcapacity" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Flight Pilot Name</label>
+            <input type="text" name="pilotname" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Flight Pilot Number</label>
+            <input type="text" name="pilotnumber" class="form-control" id="exampleInputPassword1">
+          </div>  <div class="mb-3">
+
+            <label for="exampleInputPassword1" class="form-label">Flight Location</label>
+            <input type="text" name="flightlocation" class="form-control" id="exampleInputPassword1">
+          </div>
+        <center>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      
+        <button type="clear" class="btn btn-primary">Clear</button>
+    </center>
+    </form>
+</div>
+<footer>
+
+ 
+  <h2 align="center">&COPY;Travel Booking Platform </h2>
+  
+ 
+  
+  
+  </footer>
+</body>
+</html>
